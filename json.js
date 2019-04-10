@@ -1,5 +1,5 @@
 var actualJSON;
-
+init();
 
 
 //create Tabulator on DOM element with id "example-table"
@@ -36,4 +36,3 @@ function init() {
     });
  }
 
-init();
