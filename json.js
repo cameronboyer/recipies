@@ -62,6 +62,7 @@ function createCheckBoxes() {
 
 function getListForTable() {
 	var checkedBoxes = document.querySelectorAll('input[name=myCheckBox]:checked');
+	console.log("boxes checked:", checkedBoxes);
 	var data = [];
 	for (i in checkedBoxes) {
 		for (recipe in actualJSON) {
