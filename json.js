@@ -1,6 +1,6 @@
 var actualJSON = {};
 init();
-sleep(1);
+sleep(1000);
 
 //create Tabulator on DOM element with id "example-table"
 var table = new Tabulator("#example-table", {
