@@ -38,3 +38,5 @@ function init() {
     });
  }
 
+var checkedBoxes = document.querySelectorAll('input[name=mycheckboxes]:checked');
+
