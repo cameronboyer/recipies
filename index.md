@@ -4,8 +4,7 @@
 <div id="text"></div>
 <div id="example-table"></div>
 
-
-/create Tabulator on DOM element with id "example-table"
+<script>
 $("#example-table").tabulator({
     height:320, // set height of table (optional)
     fitColumns:true, //fit columns to width of table (optional)
@@ -19,3 +18,4 @@ $("#example-table").tabulator({
         alert("Row " + row.getData().id + " Clicked!!!!");
     },
 });
+</script>
