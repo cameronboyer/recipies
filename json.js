@@ -38,7 +38,6 @@ function init() {
     });
  }
 
-var checkedBoxes = document.querySelectorAll('input[name=mycheckboxes]:checked');
 function createCheckBoxes() {
 	for (i in actualJSON) {
 		var recipe = actualJSON[i].name;
@@ -56,5 +55,17 @@ function createCheckBoxes() {
 
 		// add the label element to your div
 		document.getElementById('myCheckBoxes').appendChild(label);
+	}
+}
+
+function getListForTable() {
+	var checkedBoxes = document.querySelectorAll('input[name=myCheckBoxes]:checked');
+	var data = [];
+	for (i in checkedBoxes) {
+		for (recipe in actualJSON) {
+			if (actualJSON[recipe].name === checkedBoxes[i]) {
+				data.push(actualJSON[recipe].data;
+			}
+		}
 	}
 }
