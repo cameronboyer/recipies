@@ -15,10 +15,7 @@ setTimeout(function(){
 		{title:"Amount", field:"amount", align:"center"},
 		{title:"Measurement", field:"unit"},
 		{title:"Type", field:"type"}
-	],
-		groupBy:function(data) {
-			return data.ingredient;
-		}
+	]
 	});
 	
 }, 200); 
