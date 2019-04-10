@@ -1,0 +1,13 @@
+{ "name":"spicy shrimp",
+  "data":
+[{"ingredient":"cornmeal","amount":"1.75","unit":"cup","type":""},
+{"ingredient":"cayenne","amount":"2","unit":"tsp","type":""},
+{"ingredient":"cumin","amount":"1/2","unit":"tsp","type":""},
+{"ingredient":"salt","amount":"1","unit":"tsp","type":""},
+{"ingredient":"cilantro fresh","amount":"2","unit":"tbs","type":""},
+{"ingredient":"shrimp","amount":"2","unit":"lbs","type":""},
+{"ingredient":"veg oil","amount":"1/4","unit":"cup","type":""},
+{"ingredient":"cheddar cheese","amount":"1","unit":"cup","type":""},
+{"ingredient":"lime","amount":"1","unit":"","type":""},
+{"ingredient":"","amount":"","unit":"","type":"main"}]
+}
