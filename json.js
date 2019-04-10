@@ -9,8 +9,8 @@ setTimeout(function(){
 	data: actualJSON.data,
 	columns:[ 
 		{title:"Ingredient", field:"ingredient"},
-		{title:"Amount", field:"amount"},
-		{title:"Measurement", field:"measturement"}
+		{title:"Amount", field:"amount" align:"center"},
+		{title:"Measurement", field:"unit"}
 	]
 	});
 }, 1000); 
