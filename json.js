@@ -12,8 +12,8 @@ var table = new Tabulator("#example-table", {
  	columns:[ 
 		{title:"Ingredient", field:"ingredient"},
 		{title:"Amount", field:"amount"},
-		{title:"Measurement", field:"measturement"},
-	],
+		{title:"Measurement", field:"measturement"}
+	]
 });
 
 
