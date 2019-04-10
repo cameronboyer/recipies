@@ -48,8 +48,9 @@ function createCheckBoxes() {
 		var checkbox = document.createElement("input");
 
 		checkbox.type = "checkbox";    // make the element a checkbox
-		checkbox.name = "myCheckBox";      // give it a name we can check on the server side
-		checkbox.value = recipe;         // make its value "pair"
+		checkbox.name = "myCheckBox";  // make it all the same name
+		checkbox.value = recipe;       // make value the recipe name;
+		checkbox.checked = true;
 
 		label.appendChild(checkbox);   // add the box to the element
 		label.appendChild(description);// add the description to the element
