@@ -1,6 +1,5 @@
 { "name":"spicy shrimp",
-  "data":
-[{"ingredient":"cornmeal","amount":"1.75","unit":"cup","type":""},
+  "data":[{"ingredient":"cornmeal","amount":"1.75","unit":"cup","type":""},
 {"ingredient":"cayenne","amount":"2","unit":"tsp","type":""},
 {"ingredient":"cumin","amount":"1/2","unit":"tsp","type":""},
 {"ingredient":"salt","amount":"1","unit":"tsp","type":""},
