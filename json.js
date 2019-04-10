@@ -60,7 +60,7 @@ function createCheckBoxes() {
 }
 
 function getListForTable() {
-	var checkedBoxes = document.querySelectorAll('input[name=myCheckBoxe]:checked');
+	var checkedBoxes = document.querySelectorAll('input[name=myCheckBox]:checked');
 	var data = [];
 	for (i in checkedBoxes) {
 		for (recipe in actualJSON) {
