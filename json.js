@@ -13,7 +13,7 @@ setTimeout(function(){
 		{title:"Measurement", field:"unit"}
 	]
 	});
-}, 1000); 
+}, 200); 
 
 
 
