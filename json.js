@@ -1,4 +1,5 @@
-var actualJSON = JSON.parse(rawJSON);
+var actualJSON = {};
+init();
 
 //create Tabulator on DOM element with id "example-table"
 var table = new Tabulator("#example-table", {
