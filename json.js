@@ -63,14 +63,13 @@ function createCheckBoxes() {
 }
 
 function getListForTable() {
-	var checkedBoxesOther = getCheckedBoxes("myCheckBox");
-	console.log("other boxes checked:", checkedBoxesOther);
 	var checkedBoxes = document.querySelectorAll('input[name=myCheckBox]:checked');
 	console.log("boxes checked:", checkedBoxes);
 	var data = [];
 	for (var i in checkedBoxes) {
+		console.log("checkbox: "+ i + " value:"checkedBoxes[i]);
 		for (var recipe in actualJSON) {
-			if (actualJSON[recipe].name === checkedBoxes[i]) {
+			if (actualJSON[recipe].name === checkedBoxes[i].value) {
 				data.push(actualJSON[recipe].data);
 			}
 		}
@@ -80,16 +79,4 @@ function getListForTable() {
 }
 
 
-function getCheckedBoxes(chkboxName) {
-  var checkboxes = document.getElementsByName(chkboxName);
-  var checkboxesChecked = [];
-  // loop over them all
-  for (var i=0; i<checkboxes.length; i++) {
-     // And stick the checked ones onto an array...
-     if (checkboxes[i].checked) {
-        checkboxesChecked.push(checkboxes[i]);
-     }
-  }
-  // Return the array if it is non-empty, or null
-  return checkboxesChecked.length > 0 ? checkboxesChecked : null;
-}
+
