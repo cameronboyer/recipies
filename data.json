@@ -1,4 +1,4 @@
-var json = { "name":"spicy shrimp",
+var actualJSON = { "name":"spicy shrimp",
   "data":[{"ingredient":"cornmeal","amount":"1.75","unit":"cup","type":""},
 {"ingredient":"cayenne","amount":"2","unit":"tsp","type":""},
 {"ingredient":"cumin","amount":"1/2","unit":"tsp","type":""},
