@@ -1,6 +1,8 @@
 var actualJSON = {};
 init();
-sleep(1000);
+setTimeout(function(){ 
+    console.log(actualJSON);
+}, 1000); 
 
 //create Tabulator on DOM element with id "example-table"
 var table = new Tabulator("#example-table", {
@@ -32,7 +34,6 @@ var table = new Tabulator("#example-table", {
 function init() {
     loadJSON(function(response) {
         actualJSON = JSON.parse(response);
-	    console.log(actualJSON);
     });
  }
 
