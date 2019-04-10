@@ -35,5 +35,5 @@ var table = new Tabulator("#example-table", {
 function init() {
     loadJSON(function(response) {
         actualJSON = JSON.parse(response);
-    }
+    });
  }
