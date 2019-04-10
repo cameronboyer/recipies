@@ -16,7 +16,7 @@
       },
       {
         "ingredient": "cumin",
-        "amount": "1/2",
+        "amount": ".5",
         "unit": "tsp",
         "type": ""
       },
@@ -40,7 +40,7 @@
       },
       {
         "ingredient": "veg oil",
-        "amount": "1/4",
+        "amount": ".25",
         "unit": "cup",
         "type": ""
       },
@@ -81,7 +81,7 @@
       },
       {
         "ingredient": "salt",
-        "amount": "1/2",
+        "amount": ".5",
         "unit": "tsp",
         "type": null
       },
@@ -117,19 +117,19 @@
       },
       {
         "ingredient": "onion",
-        "amount": "1/2",
+        "amount": ".5",
         "unit": "",
         "type": null
       },
       {
         "ingredient": "cumin",
-        "amount": "1/2",
+        "amount": ".5",
         "unit": "tsp",
         "type": null
       },
       {
         "ingredient": "salt",
-        "amount": "1/2",
+        "amount": ".5",
         "unit": "tsp",
         "type": null
       },
