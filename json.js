@@ -64,7 +64,7 @@ function getListForTable() {
 	for (i in checkedBoxes) {
 		for (recipe in actualJSON) {
 			if (actualJSON[recipe].name === checkedBoxes[i]) {
-				data.push(actualJSON[recipe].data;
+				data.push(actualJSON[recipe].data);
 			}
 		}
 	}
