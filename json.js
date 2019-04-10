@@ -39,4 +39,22 @@ function init() {
  }
 
 var checkedBoxes = document.querySelectorAll('input[name=mycheckboxes]:checked');
+function createCheckBoxes() {
+	for (i in actualJSON) {
+		var recipe = actualJSON[i].name;
+		// create the necessary elements
+		var label = document.createElement("label");
+		var description = document.createTextNode(recipe);
+		var checkbox = document.createElement("input");
 
+		checkbox.type = "checkbox";    // make the element a checkbox
+		checkbox.name = recipe;      // give it a name we can check on the server side
+		checkbox.value = recipe;         // make its value "pair"
+
+		label.appendChild(checkbox);   // add the box to the element
+		label.appendChild(description);// add the description to the element
+
+		// add the label element to your div
+		document.getElementById('myCheckBoxes').appendChild(label);
+	}
+}
