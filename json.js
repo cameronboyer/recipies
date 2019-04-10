@@ -48,7 +48,7 @@ function createCheckBoxes() {
 		var checkbox = document.createElement("input");
 
 		checkbox.type = "checkbox";    // make the element a checkbox
-		checkbox.name = recipe;      // give it a name we can check on the server side
+		checkbox.name = "myCheckBox";      // give it a name we can check on the server side
 		checkbox.value = recipe;         // make its value "pair"
 
 		label.appendChild(checkbox);   // add the box to the element
@@ -60,7 +60,7 @@ function createCheckBoxes() {
 }
 
 function getListForTable() {
-	var checkedBoxes = document.querySelectorAll('input[name=myCheckBoxes]:checked');
+	var checkedBoxes = document.querySelectorAll('input[name=myCheckBoxe]:checked');
 	var data = [];
 	for (i in checkedBoxes) {
 		for (recipe in actualJSON) {
