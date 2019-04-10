@@ -9,7 +9,7 @@ setTimeout(function(){
 	data: actualJSON.data,
 	columns:[ 
 		{title:"Ingredient", field:"ingredient"},
-		{title:"Amount", field:"amount" align:"center"},
+		{title:"Amount", field:"amount", align:"center"},
 		{title:"Measurement", field:"unit"}
 	]
 	});
