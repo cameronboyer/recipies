@@ -12,7 +12,8 @@ setTimeout(function(){
 	columns:[ 
 		{title:"Ingredient", field:"ingredient"},
 		{title:"Amount", field:"amount", align:"center"},
-		{title:"Measurement", field:"unit"}
+		{title:"Measurement", field:"unit"},
+		{title:"Type", field:"type"}
 	]
 	});
 	
