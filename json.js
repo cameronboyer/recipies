@@ -40,7 +40,7 @@ function init() {
  }
 
 function createCheckBoxes() {
-	for (i in actualJSON) {
+	for (var i in actualJSON) {
 		var recipe = actualJSON[i].name;
 		// create the necessary elements
 		var label = document.createElement("label");
@@ -66,8 +66,8 @@ function getListForTable() {
 	var checkedBoxes = document.querySelectorAll('input[name=myCheckBox]:checked');
 	console.log("boxes checked:", checkedBoxes);
 	var data = [];
-	for (i in checkedBoxes) {
-		for (recipe in actualJSON) {
+	for (var i in checkedBoxes) {
+		for (var recipe in actualJSON) {
 			if (actualJSON[recipe].name === checkedBoxes[i]) {
 				data.push(actualJSON[recipe].data);
 			}
