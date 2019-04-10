@@ -67,9 +67,10 @@ function getListForTable() {
 	console.log("boxes checked:", checkedBoxes);
 	var data = [];
 	for (var i in checkedBoxes) {
-		console.log("checkbox: "+ i + " value:" + checkedBoxes[i].value);
 		for (var recipe in actualJSON) {
 			if (actualJSON[recipe].name === checkedBoxes[i].value) {
+				console.log("checkbox: ", i + " value:" + checkedBoxes[i].value);
+
 				data.push(actualJSON[recipe].data);
 			}
 		}
