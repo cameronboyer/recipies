@@ -5,6 +5,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.2.5/js/tabulator.js"></script>
 <script src="json.js"></script>
 
-
+<div id="myCheckBoxes"></div>
 
 
