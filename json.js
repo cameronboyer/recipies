@@ -1,19 +1,21 @@
 var actualJSON = {};
+var dataForTable = [];
 init();
 setTimeout(function(){ 
     	console.log(actualJSON);
+	createCheckBoxes();
 	//create Tabulator on DOM element with id "example-table"
 	var table = new Tabulator("#example-table", {
 	height:205, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
 	layout:"fitColumns", //fit columns to width of table (optional)
-	data: getListForTable(),
+	data: getListForTable(), 
 	columns:[ 
 		{title:"Ingredient", field:"ingredient"},
 		{title:"Amount", field:"amount", align:"center"},
 		{title:"Measurement", field:"unit"}
 	]
 	});
-	createCheckBoxes();
+	
 }, 200); 
 
 
