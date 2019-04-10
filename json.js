@@ -69,4 +69,6 @@ function getListForTable() {
 			}
 		}
 	}
+	console.log("data for table:", data);
+	return data;
 }
