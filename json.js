@@ -13,6 +13,7 @@ setTimeout(function(){
 		{title:"Measurement", field:"unit"}
 	]
 	});
+	createCheckBoxes();
 }, 200); 
 
 
